@@ -307,6 +307,15 @@
     <Compile Include="Download\Clients\Nzbget\NzbgetSettings.cs" />
     <Compile Include="Download\Clients\Pneumatic\Pneumatic.cs" />
     <Compile Include="Download\Clients\Pneumatic\PneumaticSettings.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentPriority.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentProxy.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentResponse.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentSettings.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentTorrent.cs" />
+    <Compile Include="Download\Clients\qBittorrent\QBittorrentTorrentStatus.cs" />
     <Compile Include="Download\Clients\Sabnzbd\JsonConverters\SabnzbdPriorityTypeConverter.cs" />
     <Compile Include="Download\Clients\Sabnzbd\JsonConverters\SabnzbdQueueTimeConverter.cs" />
     <Compile Include="Download\Clients\Sabnzbd\Responses\SabnzbdAddResponse.cs" />
